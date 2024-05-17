@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* styling navbar toggler isn't necessary (It spoils the work and styles the navbar). instead, */
+
+._navbar 
+{
+   
+    position: absolute;
+    width: 100%;
+}
+
+
+.navbar-toggler
+{
+    left: 90%;
+}
+.navbar-text
+{
+    font-family: 'Times New Roman', Times, serif;
+    left: auto;
+    padding: 8px;
+
+}
+
+.navbar-nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    padding: 10px 20px;
+}
+.nav-item
+{
+    width: fit-content;
+    padding: 5px;
+}
